@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Mono.ApiTools.NuGetDiff</id>
+    <version>1.0.1</version>
+    <title>Mono.ApiTools.NuGetDiff</title>
+    <authors>Matthew Leibowitz</authors>
+    <owners>Matthew Leibowitz</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/mattleibow/Mono.ApiTools.NuGetDiff/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mattleibow/Mono.ApiTools.NuGetDiff</projectUrl>
+    <description>A library to help with .NET API development and and NuGet diff-ing.</description>
+    <releaseNotes>See: https://github.com/mattleibow/Mono.ApiTools.NuGetDiff/releases/v1.0.1</releaseNotes>
+    <copyright>© Matthew Leibowitz.</copyright>
+    <tags>nuget, diff, compare, mono, mono-api-tools, mono-api-info, mono-api-diff, mono-api-html</tags>
+    <repository url="https://github.com/mattleibow/Mono.ApiTools.NuGetDiff" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Mono.ApiTools" version="5.14.0.2" exclude="Build,Analyzers" />
+        <dependency id="NuGet.Packaging" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="NuGet.Protocol" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="System.ValueTuple" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Mono.ApiTools" version="5.14.0.2" exclude="Build,Analyzers" />
+        <dependency id="NuGet.Packaging" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="NuGet.Protocol" version="4.7.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
